@@ -1,6 +1,6 @@
 package utility;
 public class MyFunc {
-    public static void Bekle(int sn)
+    public static void bekle(int sn)
     {
         try {
             Thread.sleep(1000*sn); // ms beklediği

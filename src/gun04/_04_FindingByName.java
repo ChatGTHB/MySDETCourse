@@ -14,7 +14,7 @@ public class _04_FindingByName {
         WebElement ad= driver.findElement(By.name("q8_name[first]"));
         ad.sendKeys("Kerem");
 
-        MyFunc.Bekle(3);
+        MyFunc.bekle(3);
         driver.quit();
     }
 }

@@ -28,7 +28,7 @@ public class _05_FindingByClassName {
         // aranılan eleman bulunamazsa : findElement NoSuchElement hatası veriri
         // findElements is size ı 0 olan List verir, yani hata vermez.
 
-        MyFunc.Bekle(3);
+        MyFunc.bekle(3);
         driver.quit();
     }
 }

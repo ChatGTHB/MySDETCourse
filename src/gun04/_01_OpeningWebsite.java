@@ -15,7 +15,7 @@ public class _01_OpeningWebsite {
 //            throw new RuntimeException(e);
 //        }
 
-        MyFunc.Bekle(5);
+        MyFunc.bekle(5);
         driver.quit();
     }
 }

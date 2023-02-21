@@ -19,7 +19,7 @@ public class _03_FindingByIdNotFoundException {
         }
 
 
-        MyFunc.Bekle(3);
+        MyFunc.bekle(3);
         driver.quit();
     }
 }

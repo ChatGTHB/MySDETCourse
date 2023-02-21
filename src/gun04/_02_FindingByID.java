@@ -13,11 +13,11 @@ public class _02_FindingByID {
 
         WebElement isimKutusu=driver.findElement(By.id("first_8")); // elemanı ID ile bul
         isimKutusu.sendKeys("Kerem"); // kutucuğa yazı gönder
-        MyFunc.Bekle(1);
+        MyFunc.bekle(1);
 
         WebElement soyisimKutusu=driver.findElement(By.id("last_8"));
         soyisimKutusu.sendKeys("Yiğit");
-        MyFunc.Bekle(1);
+        MyFunc.bekle(1);
 
 
 //        isimKutusu.clear();
@@ -37,7 +37,7 @@ public class _02_FindingByID {
         WebElement submitButton=driver.findElement(By.id("input_2"));
         submitButton.click();
 
-        MyFunc.Bekle(3);
+        MyFunc.bekle(3);
         driver.quit();
     }
 }
