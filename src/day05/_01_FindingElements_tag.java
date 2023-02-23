@@ -1,4 +1,4 @@
-package gun05;
+package day05;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -11,7 +11,7 @@ public class _01_FindingElements_tag extends BaseDriver {
         driver.get("https://www.hepsiburada.com/");
 
         List<WebElement> links = driver.findElements(By.tagName("a"));
-        // verilen taglardaki tüm elemanları aldık.
+        // <a> tag'indeki tüm elemanları aldık.
 
         for (WebElement e : links) {
             if (e.getText().isEmpty()) {

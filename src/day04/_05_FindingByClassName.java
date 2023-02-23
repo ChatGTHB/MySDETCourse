@@ -1,4 +1,4 @@
-package gun04;
+package day04;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -25,7 +25,7 @@ public class _05_FindingByClassName {
             System.out.println("e.getText() = " + e.getText());
         }
 
-        // aranılan eleman bulunamazsa : findElement NoSuchElement hatası veriri
+        // aranılan eleman bulunamazsa : findElement NoSuchElement hatası verir.
         // findElements is size ı 0 olan List verir, yani hata vermez.
 
         MyFunc.bekle(3);

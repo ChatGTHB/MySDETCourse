@@ -32,19 +32,17 @@ public class BaseDriver {
         // eğer 2 sn yüklerse 30 sn. beklemez.
 
         driver.manage().timeouts().implicitlyWait(dr);
-        // Bütün weblementlerin element bazında, elemente özel işlem yapılmadan önce
+        // Bütün weblementlerin element bazında,
+        // elemente özel işlem yapılmadan önce
         // hazır hale gelmesi verilen mühlet yani süre.
         // eğer 2 sn yüklerse 30 sn. beklemez.
 
     }
-
     public static void bekleKapat() {
         MyFunc.bekle(3);
         driver.quit();
     }
-
     public static void kalanOncekileriKapat() {
-
         try {
             Runtime.getRuntime().exec("taskkill /F /IM chromedriver.exe /T");
         } catch (Exception ignored) {

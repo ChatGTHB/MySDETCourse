@@ -1,4 +1,4 @@
-package gun04;
+package day04;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -11,13 +11,16 @@ public class _06_FindingByLinkTest {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.hepsiburada.com/");
 
-        // linkText yoluylaa eleman bulma işlemi sadece a tag'inde kullanılabilir.
-        WebElement siparislerimLinki= driver.findElement(By.linkText("Siparişlerim"));
+        // linkText yoluyla eleman bulma işlemi sadece html <a> tag'inde kullanılabilir.
+        WebElement myOrdersLink= driver.findElement(By.linkText("Siparişlerim"));
         // Görünen text'i "Siparişlerim" olan a tag'li web element
-        System.out.println("siparislerimLinki.getText() = " + siparislerimLinki.getText());
-        System.out.println("siparislerimLinki.getAttribute(\"href\") = " + siparislerimLinki.getAttribute("href"));
-        System.out.println("siparislerimLinki.getAttribute(\"title\") = " + siparislerimLinki.getAttribute("title"));
-        System.out.println("siparislerimLinki.getAttribute(\"rel\") = " + siparislerimLinki.getAttribute("rel"));
+
+
+        System.out.println("myOrdersLink.getText() = " + myOrdersLink.getText());
+
+        System.out.println("myOrdersLink.getAttribute(\"href\") = " + myOrdersLink.getAttribute("href"));
+        System.out.println("myOrdersLink.getAttribute(\"title\") = " + myOrdersLink.getAttribute("title"));
+        System.out.println("myOrdersLink.getAttribute(\"rel\") = " + myOrdersLink.getAttribute("rel"));
 
         // partialLinkTest
         WebElement link2= driver.findElement(By.partialLinkText("Süper Fiyat"));

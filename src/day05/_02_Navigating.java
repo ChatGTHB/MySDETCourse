@@ -1,4 +1,4 @@
-package gun05;
+package day05;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

@@ -1,4 +1,4 @@
-package gun04;
+package day04;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

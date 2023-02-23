@@ -1,4 +1,4 @@
-package gun04;
+package day04;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -11,20 +11,19 @@ public class _02_FindingByID {
         WebDriver driver = new ChromeDriver();
         driver.get("https://form.jotform.com/221934510376353"); // sayfaya git
 
-        WebElement isimKutusu=driver.findElement(By.id("first_8")); // elemanı ID ile bul
-        isimKutusu.sendKeys("Kerem"); // kutucuğa yazı gönder
+        WebElement nameBox=driver.findElement(By.id("first_8")); // elemanı ID ile bul
+        nameBox.sendKeys("Kerem"); // kutucuğa yazı gönder
         MyFunc.bekle(1);
 
-        WebElement soyisimKutusu=driver.findElement(By.id("last_8"));
-        soyisimKutusu.sendKeys("Yiğit");
+        WebElement surnameBox=driver.findElement(By.id("last_8"));
+        surnameBox.sendKeys("Yiğit");
         MyFunc.bekle(1);
 
-
-//        isimKutusu.clear();
+//        nameBox.clear();
 //        MyFunc.Bekle(1);
-//        soyisimKutusu.clear();
+//        surnameBox.clear();
 
-        // Chrome ctrl+f ye basıldığında inspect bölümünde
+        // Chrome ctrl+f ye basıldığında (inceleme kısmı aktifken) inspect bölümünde
         // first_name yazarsak bütün kelimelerde arar
         // #first_name yazarsak bütün ID paramtrelerinde arar
 
