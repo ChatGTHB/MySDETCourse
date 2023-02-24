@@ -1,4 +1,4 @@
-package homework._22_02_2023_Selenium;
+package homework._22_02_2023_Selenium_CssSelector;
 
 import org.junit.Assert;
 import org.junit.Test;

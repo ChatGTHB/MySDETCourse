@@ -21,11 +21,13 @@ public class _06_FindingByLinkTest {
         System.out.println("myOrdersLink.getAttribute(\"href\") = " + myOrdersLink.getAttribute("href"));
         System.out.println("myOrdersLink.getAttribute(\"title\") = " + myOrdersLink.getAttribute("title"));
         System.out.println("myOrdersLink.getAttribute(\"rel\") = " + myOrdersLink.getAttribute("rel"));
+        System.out.println("myOrdersLink.getAttribute(\"value\") = " + myOrdersLink.getAttribute("value"));
 
         // partialLinkTest
         WebElement link2= driver.findElement(By.partialLinkText("Süper Fiyat"));
         // görünen link text'inin bir parçası verilebiliyor.
         System.out.println("link2.getText() = " + link2.getText());
+        System.out.println("link2.getAttribute(\"value\") = " + link2.getAttribute("value"));
 
         MyFunc.bekle(2);
         driver.quit();
