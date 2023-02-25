@@ -49,7 +49,6 @@ public class Tests extends BaseDriver {
         MyFunc.bekle(2);
         WebElement signInButton= driver.findElement(By.cssSelector("[id='log-in']"));
         signInButton.click();
-
     }
 
     @Test
@@ -63,6 +62,10 @@ public class Tests extends BaseDriver {
         MyFunc.bekle(2);
         WebElement searchButton= driver.findElement(By.cssSelector("[class='searchTextSpan']"));
         searchButton.click();
+
+        WebElement confirmation= driver.findElement(By.cssSelector("[id='searchMessageContainer']"));
+
+        Assert.assertTrue(confirmation.getText().contains("results for teddy bear"));
     }
 
     @Test

@@ -59,6 +59,10 @@ public class Tests extends BaseDriver {
         MyFunc.bekle(2);
         WebElement searchButton = driver.findElement(By.xpath("//span[@class='searchTextSpan']"));
         searchButton.click();
+
+        WebElement confirmation= driver.findElement(By.xpath("//div[@id='searchMessageContainer']"));
+
+        Assert.assertTrue(confirmation.getText().contains("results for teddy bear"));
     }
 
     @Test
