@@ -81,7 +81,7 @@ public class Homework extends BaseDriver {
         }
 
         WebElement itemTotal_WE = driver.findElement(By.xpath("//div[@class='summary_subtotal_label']"));
-        String itemTotal_WE_Str = itemTotal_WE.getText().replaceAll("[^0-9,.]", "");
+        String itemTotal_WE_Str = itemTotal_WE.getText().replaceAll("[^0-9,.]","");
         double itemTotal_WE_Double = Double.parseDouble(itemTotal_WE_Str);
 
         Assert.assertTrue(itemTotal==itemTotal_WE_Double);
