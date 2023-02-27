@@ -11,7 +11,7 @@ import java.util.List;
 
 public class Homework extends BaseDriver {
     @Test
-    public void Homework() {
+    public void Test1() {
 
         driver.get("https://www.saucedemo.com/");
 
@@ -76,14 +76,11 @@ public class Homework extends BaseDriver {
 
         double itemTotal = 0;
         for (WebElement item : items) {
-            String itemStr = item.getText().replace("$", "");
-            itemTotal += Double.parseDouble(itemStr);
+            itemTotal += Double.parseDouble(item.getText().replace("$", ""));
         }
 
         WebElement itemTotal_WE = driver.findElement(By.xpath("//div[@class='summary_subtotal_label']"));
-        String itemTotal_WE_Str = itemTotal_WE.getText().replaceAll("[^0-9,.]","");
-        double itemTotal_WE_Double = Double.parseDouble(itemTotal_WE_Str);
-
+        double itemTotal_WE_Double = Double.parseDouble(itemTotal_WE.getText().replaceAll("[^0-9,.]",""));
         Assert.assertTrue(itemTotal==itemTotal_WE_Double);
 
         bekleKapat();
