@@ -1,0 +1,13 @@
+Interview Sorularında: Action Class
+
+  Action Class ? nerelerde kullanılır, neler yapabilirsiniz.
+
+  - Normal click harici, doubleClick, rightClick, HoverOver,
+    Özel tuşlar (ctrl,shift, yön tuşları) etkilerini kullanmak
+    kullanılan sınıfın adıdır.
+
+  - Nerelerde kullanılır? WebElementlerde kullanılır.
+
+  - Nasıl kullanırsın.
+    Actions aksiyonlar = new Actions(driver);  // driver üzerinden aksiyonları kullanacağız.
+    Aksiyonlar :   doubleClick, rightClick, HoverOver, Özel tuşlar (ctrl,shift, yön tuşları)
