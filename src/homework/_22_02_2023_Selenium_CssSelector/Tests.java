@@ -49,6 +49,10 @@ public class Tests extends BaseDriver {
         MyFunc.bekle(2);
         WebElement signInButton= driver.findElement(By.cssSelector("[id='log-in']"));
         signInButton.click();
+
+        WebElement verificationMessage=driver.findElement(By.cssSelector("h6[id='time']"));
+        Assert.assertTrue(verificationMessage.getText().equals("Your nearest branch closes in: 30m 5s"));
+
     }
 
     @Test
