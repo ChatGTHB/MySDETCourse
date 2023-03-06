@@ -35,8 +35,8 @@ public class _05_WindowsQuestion extends BaseDriver {
         Set<String> windowsIDs = driver.getWindowHandles();
         for (String id : windowsIDs) {
             driver.switchTo().window(id); // Sıradaki tabdaki window'a geçilmiş oldu
-            System.out.println("title = " + driver.getTitle()+", url = " + driver.getCurrentUrl());
-            if(id.equals("homepageWindowID")){
+            System.out.println("title = " + driver.getTitle() + ", url = " + driver.getCurrentUrl());
+            if (id.equals("homepageWindowID")) {
                 continue;
             }
             driver.switchTo().window(id);
