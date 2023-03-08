@@ -11,7 +11,7 @@ import java.util.List;
 
 public class Homework extends BaseDriver {
     @Test
-    public void Test1() {
+    public void test1() {
 
         driver.get("https://www.saucedemo.com/");
 

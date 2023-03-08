@@ -11,7 +11,7 @@ import java.util.Set;
 
 public class _04_WindowsIntroduction extends BaseDriver {
     @Test
-    public void Test4() {
+    public void test4() {
 
         driver.get("https://www.selenium.dev/");
 

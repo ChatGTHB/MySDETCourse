@@ -10,7 +10,7 @@ import utility.BaseDriver;
 public class _07_ActionDragAndDropTest extends BaseDriver {
 
     @Test
-    public void Test1() {
+    public void test1() {
         driver.get("http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html");
 
         Actions actions = new Actions(driver);

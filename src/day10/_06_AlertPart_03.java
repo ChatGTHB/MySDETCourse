@@ -9,7 +9,7 @@ import utility.MyFunc;
 
 public class _06_AlertPart_03 extends BaseDriver {
     @Test
-    public void Test1() {
+    public void test1() {
 
         driver.get("http://demo.seleniumeasy.com/javascript-alert-box-demo.html");
 

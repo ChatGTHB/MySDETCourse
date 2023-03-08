@@ -9,7 +9,7 @@ import utility.MyFunc;
 public class Homework extends BaseDriver {
 
     @Test
-    public void Homework(){
+    public void homework(){
         driver.get("https://formsmarts.com/form/yu?mode=h5");
 
         MyFunc.bekle(2);

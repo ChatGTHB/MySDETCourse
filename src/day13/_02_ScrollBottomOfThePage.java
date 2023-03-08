@@ -7,7 +7,7 @@ import utility.BaseDriver;
 public class _02_ScrollBottomOfThePage extends BaseDriver {
 
     @Test
-    public void Test1(){
+    public void test1(){
         driver.get("https://p-del.co/");
 
         JavascriptExecutor js = (JavascriptExecutor) driver; // cast yapıldı

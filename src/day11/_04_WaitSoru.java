@@ -12,7 +12,7 @@ import java.time.Duration;
 public class _04_WaitSoru extends BaseDriver {
 
     @Test
-    public void Wait4(){
+    public void wait4(){
 
     /*
     Senaryo

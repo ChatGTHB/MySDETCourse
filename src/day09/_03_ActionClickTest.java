@@ -11,7 +11,7 @@ import utility.MyFunc;
 public class _03_ActionClickTest extends BaseDriver {
 
     @Test
-    public void Test(){
+    public void test(){
         driver.get("https://demoqa.com/buttons");
         WebElement element = driver.findElement(By.xpath("//button[text()='Click Me']"));
         // element.click();

@@ -13,7 +13,7 @@ import java.time.Duration;
 public class _03_FillingFormTask extends BaseDriver {
 
     @Test
-    public void Wait3(){
+    public void wait3(){
 
         /*
         Bu siteye gidiniz.  http://demo.seleniumeasy.com/ajax-form-submit-demo.html

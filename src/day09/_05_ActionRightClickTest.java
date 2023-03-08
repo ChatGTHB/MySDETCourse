@@ -10,7 +10,7 @@ import utility.MyFunc;
 
 public class _05_ActionRightClickTest extends BaseDriver {
     @Test
-    public void Test1() {
+    public void test1() {
         driver.get("https://demoqa.com/buttons");
 
         WebElement element = driver.findElement(By.id("rightClickBtn"));

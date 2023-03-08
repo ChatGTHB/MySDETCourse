@@ -22,7 +22,7 @@ public class _01_Soru extends BaseDriver {
 //  sonrasında ise göründüğünü assert ile doğrulayınız.
 
     @Test
-    public void Test1() {
+    public void test1() {
 
         driver.get("https://www.facebook.com/");
 

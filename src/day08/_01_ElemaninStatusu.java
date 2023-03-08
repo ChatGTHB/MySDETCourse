@@ -8,7 +8,7 @@ import utility.MyFunc;
 
 public class _01_ElemaninStatusu extends BaseDriver {
     @Test
-    public void Test1() {
+    public void test1() {
         driver.get("http://samples.gwtproject.org/samples/Showcase/Showcase.html#!CwCheckBox");
 
         WebElement tuesday = driver.findElement(By.id("gwt-debug-cwCheckBox-Tuesday-input"));

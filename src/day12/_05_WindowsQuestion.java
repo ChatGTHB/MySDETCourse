@@ -17,7 +17,7 @@ public class _05_WindowsQuestion extends BaseDriver {
     Daha sonra Ana sayfa harici diğer tüm sayfaları kapatınız.
  */
     @Test
-    public void Test5() {
+    public void test5() {
         driver.get("https://www.selenium.dev/");
 
         String homepageWindowID = driver.getWindowHandle();

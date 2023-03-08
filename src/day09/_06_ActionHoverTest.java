@@ -10,7 +10,7 @@ import utility.MyFunc;
 
 public class _06_ActionHoverTest extends BaseDriver {
     @Test
-    public void Test1() {
+    public void test1() {
         driver.get("https://www.hepsiburada.com/");
 
         WebElement element = driver.findElement(By.xpath("//span[text()='Moda']"));

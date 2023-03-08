@@ -9,7 +9,7 @@ import utility.BaseDriver;
 public class _02_SelectClassGiris extends BaseDriver {
 
     @Test
-    public void Test1() {
+    public void test1() {
         driver.get("https://www.amazon.com.tr/");
 
         WebElement webMenu = driver.findElement(By.id("searchDropdownBox"));

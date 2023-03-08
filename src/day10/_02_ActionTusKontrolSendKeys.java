@@ -11,7 +11,7 @@ import utility.MyFunc;
 
 public class _02_ActionTusKontrolSendKeys extends BaseDriver {
     @Test
-    public void Test1() {
+    public void test1() {
 
         driver.get("https://demoqa.com/auto-complete");
 

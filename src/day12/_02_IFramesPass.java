@@ -15,7 +15,7 @@ public class _02_IFramesPass extends BaseDriver {
  */
 
     @Test
-    public void Test2() {
+    public void test2() {
         driver.get("https://chercher.tech/practice/frames");
 
         driver.switchTo().frame(0);

@@ -15,7 +15,7 @@ import utility.MyFunc;
 public class _01_ActionHoverOverSoru extends BaseDriver {
 
     @Test
-    public void Test1() {
+    public void test1() {
         driver.get("https://www.etsy.com/");
 
         WebElement jewelryAccessories = driver.findElement(By.xpath("//span[@id='catnav-primary-link-10855']"));

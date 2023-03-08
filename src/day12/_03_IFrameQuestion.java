@@ -14,7 +14,7 @@ public class _03_IFrameQuestion extends BaseDriver {
    4-Select in 4.elemanını seçiniz.
     */
     @Test
-    public void Test3() {
+    public void test3() {
         driver.get("https://chercher.tech/practice/frames");
 
         driver.switchTo().frame(0);

@@ -8,7 +8,7 @@ import utility.BaseDriver;
 public class _01_IFrameIntroduction extends BaseDriver {
 
     @Test
-    public void Test1() {
+    public void test1() {
         driver.get("https://chercher.tech/practice/frames");
 
         // id=frame1  name=iamFrame index?=Bulunduğu sayfadaki kod sayısı

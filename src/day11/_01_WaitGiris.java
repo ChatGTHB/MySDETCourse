@@ -10,7 +10,7 @@ import java.time.Duration;
 public class _01_WaitGiris extends BaseDriver {
 
     @Test
-    public void Wait1() {
+    public void wait1() {
 
         driver.get("http://seleniumpractise.blogspot.com/2016/08/how-to-use-explicit-wait-in-selenium.html");
 

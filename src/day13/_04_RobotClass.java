@@ -17,7 +17,7 @@ import java.time.Duration;
 public class _04_RobotClass extends BaseDriver {
 
     @Test
-    public void Test1() throws AWTException {
+    public void test1() throws AWTException {
         driver.get("http://demo.guru99.com/test/upload/");
 
 //        List<WebElement> acceptAll = driver.findElements(By.xpath("//span[text()='Accept All']"));

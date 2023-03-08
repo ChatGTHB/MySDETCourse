@@ -12,7 +12,7 @@ import java.time.Duration;
 public class _02_ExplitWait extends BaseDriver {
 
     @Test
-    public void Wait2(){
+    public void wait2(){
 
         driver.get("http://seleniumpractise.blogspot.com/2016/08/how-to-use-explicit-wait-in-selenium.html");
 

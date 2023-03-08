@@ -9,7 +9,7 @@ import utility.BaseDriver;
 public class _03_ScrollToWebElement extends BaseDriver {
 
     @Test
-    public void Test1() {
+    public void test1() {
 
         driver.manage().deleteAllCookies(); // Cookiesler silindi
 

@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import utility.BaseDriver;
 public class _01_CssSelector_2 extends BaseDriver {
     @Test
-    public void Test1(){
+    public void test1(){
 
         driver.get("https://demo.seleniumeasy.com/basic-first-form-demo.html");
 
